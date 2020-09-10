@@ -12,8 +12,12 @@ function App() {
       <h1>Event App</h1>
       <div>
         <div>
-          <label htmlFor="email" >Email</label>
-          <input name="email" placeholder="rebecka@molin.com"/>
+          <label htmlFor="email">Email</label>
+          <input
+            ref={emailInput}
+            name="email"
+            placeholder="rebecka@molin.com"
+          />
         </div>
         <div>
           <label htmlFor="password">Password</label>
