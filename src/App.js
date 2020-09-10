@@ -1,6 +1,8 @@
 import React from "react";
 
 function App() {
+  const emailInput = useRef(null);
+  const passwordInput = useRef(null);
 
   function login(){
     console.log("login")
